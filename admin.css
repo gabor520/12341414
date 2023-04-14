@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+
+ article ul li{
+    list-style-type: none;
+}
+body{
+    background-color: rgb(23, 109, 158);
+}
+a{
+    text-decoration: none;
+    float: right;
+    margin-right: 100px;
+    padding: 3px;
+    border: 1px solid black;
+    color: white;
+}
