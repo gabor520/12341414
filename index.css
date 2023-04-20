@@ -68,3 +68,15 @@ button{
 a{
     color: white;
 }
+@media screen and (max-width:600px){
+    article{
+        grid-template-columns:1fr ;
+    }
+}
+
+@media screen and (max-width:1200px){
+    article{
+        grid-template-columns:1fr 1fr;
+        
+    }
+}
