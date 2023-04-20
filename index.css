@@ -62,14 +62,8 @@ button {
 a {
   color: white;
 }
-@media screen and (width: 400px) {
-  article {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media screen and (width: 800px) {
-  article {
-    grid-template-columns: 1fr 1fr;
+@media screen and (max-width:900px) {
+  article{
+  grid-template-columns: 1fr 1fr;
   }
 }
